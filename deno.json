@@ -1,0 +1,18 @@
+{
+  "name": "@bbcwqx/adl",
+  "version": "0.1.0",
+  "tasks": {
+    "adl": "deno run -RW=./adr adl",
+    "version": "deno run -RWE --allow-run=\"git\" jsr:@kt3k/bmp"
+  },
+  "imports": {
+    "adl": "./src/main.ts"
+  },
+  "exports": {
+    ".": "./src/main.ts"
+  },
+  "lock": false,
+  "unstable": [
+    "raw-imports"
+  ]
+}
